@@ -3,7 +3,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
-export function Footer() {
+export default function Footer() {
   const year = new Date().getFullYear();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
