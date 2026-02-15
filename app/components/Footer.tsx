@@ -5,11 +5,18 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Logo & Description */}
           <div className="sm:col-span-2 lg:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4 font-playfair">
-              Evolution Media Group
-            </h3>
+            <div className="mb-6">
+              <img 
+                src="/logo.png" 
+                alt="Evolution Media Group" 
+                className="w-32 sm:w-40 h-auto mb-4"
+              />
+              <h3 className="text-2xl font-bold text-white font-playfair">
+                Evolution Media Group
+              </h3>
+            </div>
             <p className="text-slate-400 mb-6 max-w-md">
-              We build digital experiences that matter. From sleek websites to powerful applications, we bring your vision to life.
+              We craft extraordinary digital experiences that matter. From sleek websites to powerful applications, we bring your vision to life with AI-powered development.
             </p>
             <div className="text-sm text-slate-500">
               <div className="mb-2">
@@ -28,18 +35,8 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a href="#services" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
-                  Services
-                </a>
-              </li>
-              <li>
                 <a href="#portfolio" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
                   Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
-                  About
                 </a>
               </li>
               <li>
@@ -57,24 +54,19 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a href="#services" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
+                <p className="text-slate-400">
                   Web Development
-                </a>
+                </p>
               </li>
               <li>
-                <a href="#services" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
+                <p className="text-slate-400">
                   E-commerce
-                </a>
+                </p>
               </li>
               <li>
-                <a href="#services" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
+                <p className="text-slate-400">
                   Brand Identity
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="text-slate-400 hover:text-[#00bcd4] transition-colors">
-                  SEO Optimization
-                </a>
+                </p>
               </li>
             </ul>
           </div>

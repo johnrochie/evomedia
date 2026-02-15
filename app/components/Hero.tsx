@@ -66,24 +66,14 @@ export default function Hero() {
           animate="visible"
           className="text-center"
         >
-          {/* Tagline */}
+          {/* Logo */}
           <motion.div variants={itemVariants} className="mb-8">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-[#00bcd4] text-sm font-semibold tracking-wider uppercase">
-              AI-Powered Digital Excellence
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="Evolution Media Group" 
+              className="w-32 sm:w-40 md:w-48 h-auto"
+            />
           </motion.div>
-
-          {/* Main headline */}
-          <motion.h1 variants={heroVariants} className="mb-6">
-            <div className="font-serif leading-[1.05] tracking-tight">
-              <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-[6rem] xl:text-[7rem] text-white font-black mb-4">
-                Evolution
-              </span>
-              <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-[6rem] xl:text-[7rem] gradient-text font-black">
-                Media Group
-              </span>
-            </div>
-          </motion.h1>
 
           {/* Subheadline */}
           <motion.p
