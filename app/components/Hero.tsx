@@ -16,7 +16,6 @@ const itemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: [0.19, 1, 0.22, 1] },
   },
 };
 
@@ -25,7 +24,6 @@ const heroVariants = {
   visible: {
     opacity: 1,
     scale: 1,
-    transition: { duration: 1.2, ease: [0.19, 1, 0.22, 1] },
   },
 };
 
